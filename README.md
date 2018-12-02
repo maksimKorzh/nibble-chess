@@ -34,8 +34,10 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         - very basic and raw implementation of UCI loop for nibble-chess
         - single file chess project template of my own design
 
-# Compile: gcc -Ofast nibble-chess.c -o nibble-chess
+# Compile:
 
+    gcc -Ofast nibble-chess.c -o nibble-chess
+    
 # Useful resources
 
 http://home.hccnet.nl/h.g.muller/max-src2.html - H. G. Muller's micro-Max tutorial

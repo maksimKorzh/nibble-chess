@@ -15,11 +15,12 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
 # Features
 
     - 0x88 board representation
-    - three nested loops pseudo-legal movegenerator
+    - three nested loops pseudo-legal move generator
     - material evaluation + positional scores(stored in right part of 0x88 board)
     - tricky move ordering technique: scoring move scores during move generation 
     - very basic alpha-beta search
     - quiescence search
+    - user move validation
     - console-based interface
 
 # Additional resources
@@ -33,6 +34,9 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         - single file chess project template of my own design
 
 # Useful resources
+
 http://home.hccnet.nl/h.g.muller/max-src2.html - H. G. Muller's micro-Max tutorial
+
 https://www.chessprogramming.org/Main_Page - chess programming wiki
+
 http://talkchess.com/forum3/index.php - chess programming forum

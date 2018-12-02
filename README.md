@@ -1,6 +1,8 @@
 # nibble-chess
     A tribute to chess programming community based on ideas taken from micro-Max by H.G. Muller
 
+[![nibble-chess](https://github.com/maksimKorzh/nibble-chess/nibble-chess.png)]
+
 # Overview
     A large chess programming community helped me a lot over last three years, now I want to give
     it something back. Nibble chess is a simple console based chess program which can be extended

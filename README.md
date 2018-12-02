@@ -1,7 +1,7 @@
 # nibble-chess
 A tribute to chess programming community based on ideas taken from micro-Max by H.G. Muller
 
-[![nibble-chess](https://github.com/maksimKorzh/nibble-chess/nibble-chess.png)]
+[![nibble-chess](https://github.com/maksimKorzh/nibble-chess/nibble-chess.gif)]
 
 # Overview
 

@@ -17,7 +17,7 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
     - 0x88 board representation
     - three nested loops pseudo-legal move generator
     - material evaluation + positional scores(stored in right part of 0x88 board)
-    - tricky move ordering technique: scoring move scores during move generation 
+    - tricky move ordering technique: scoring move during move generation 
     - very basic alpha-beta search
     - quiescence search
     - user move validation

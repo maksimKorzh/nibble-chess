@@ -31,7 +31,7 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         - pretty fast move generator/perft tester with piece lists
         - reimplementation of micro-Max's move generator in NASM assembly
         - FEN parser for nibble chess
-        - very basic and raw implementation of UCI loop
+        - very basic and raw implementation of UCI loop for nibble-chess
         - single file chess project template of my own design
 
 # Compile: gcc -Ofast nibble-chess.c -o nibble-chess

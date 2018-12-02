@@ -14,6 +14,7 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
 
 # Features
 
+    - single source file of about 300 lines of C code
     - 0x88 board representation
     - three nested loops pseudo-legal move generator
     - material evaluation + positional scores(stored in right part of 0x88 board)
@@ -32,6 +33,8 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         - FEN parser for nibble chess
         - very basic and raw implementation of UCI loop
         - single file chess project template of my own design
+
+# Compile: gcc -Ofast nibble-chess.c -o nibble-chess
 
 # Useful resources
 

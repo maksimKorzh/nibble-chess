@@ -40,7 +40,7 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         gcc -Ofast nibble-chess.c -o nibble-chess
     
     on windows:
-        gcc.exe -std=c99 nibble-chess.c -o nibble-chess.exe && wine nibble-chess.exe
+        gcc.exe -std=c99 -Ofast nibble-chess.c -o nibble-chess.exe
     
     If you're on windows please compile nibble-chess(ASCII).c file due to I shamely
     don't know how to print unicode chars under windows, sorry about that.

@@ -12,6 +12,11 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
     when just started to learn chess programming. The source is mostly based on H.G. Muller's ideas, as
     they are implemented in his micro-Max engine.
 
+# Release
+
+Win32 ASCII version of nibble-chess
+https://github.com/maksimKorzh/nibble-chess/releases
+
 # Features
 
     - single source file of about 300 lines of C code
@@ -52,7 +57,8 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
 
 # Contributors
 
-    Roland Chastain - kindly pointed out windows compilation details and reported unicode chars output issue
+    Roland Chastain - kindly pointed out windows compilation details and reported unicode chars output issue,
+                      provided native windows 32-bit binary executable
  
 # Useful resources
 

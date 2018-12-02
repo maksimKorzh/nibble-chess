@@ -34,10 +34,26 @@ A tribute to chess programming community based on ideas taken from micro-Max by 
         - very basic and raw implementation of UCI loop for nibble-chess
         - single file chess project template of my own design
 
-# Compile:
-
-    gcc -Ofast nibble-chess.c -o nibble-chess
+# Compile
     
+    on linux:
+        gcc -Ofast nibble-chess.c -o nibble-chess
+    
+    on windows:
+        gcc.exe -std=c99 nibble-chess.c -o nibble-chess.exe && wine nibble-chess.exe
+    
+    If you're on windows please compile nibble-chess(ASCII).c file due to I shamely
+    don't know how to print unicode chars under windows, sorry about that.
+
+# Contributions
+
+    Any forks and contributions are appriciated. Feel free to contact me on any questions
+    via talkchess.com forum, opening issues on github or by email <freesoft.for.people@gmail.com>
+
+# Contributors
+
+    Roland Chastain - kindly pointed out windows compilation details and reported unicode chars output issue
+ 
 # Useful resources
 
 http://home.hccnet.nl/h.g.muller/max-src2.html - H. G. Muller's micro-Max tutorial

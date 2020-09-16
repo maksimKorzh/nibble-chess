@@ -19,15 +19,23 @@ https://github.com/maksimKorzh/nibble-chess/releases
 
 # Features
 
-    - single source file of about 300 lines of C code
-    - 0x88 board representation
-    - three nested loops pseudo-legal move generator
-    - material evaluation + positional scores(stored in right part of 0x88 board)
-    - tricky move ordering technique: scoring move during move generation 
-    - very basic alpha-beta search
-    - quiescence search
-    - user move validation
-    - console-based interface
+  - single source file of about 300 lines of C code
+  - 0x88 board representation
+  - three nested loops pseudo-legal move generator
+  - material evaluation + positional scores(stored in right part of 0x88 board)
+  - tricky move ordering technique: scoring move during move generation 
+  - very basic alpha-beta search
+  - quiescence search
+  - user move validation
+  - console-based interface
+
+
+# Limitations
+  - no 3 fold repetition detection
+  - no 50 move rule detection
+
+# known bugs
+  - doesn't find the closest mating line
 
 # Additional resources
 
